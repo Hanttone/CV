@@ -7,6 +7,7 @@ body {
   font-size: 17px;
   color: #3f3c4a;
 }
+
 page {
   background: rgb(254, 254, 254);
   display: block;
@@ -14,14 +15,17 @@ page {
   margin-bottom: 0.5cm;
   box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
 }
+
 page[size='A4'] {
   width: 21cm;
   height: 29.7cm;
 }
+
 page[size='A4'][layout='portrait'] {
   width: 29.7cm;
   height: 21cm;
 }
+
 @media print {
   body,
   page {
@@ -125,10 +129,30 @@ page[size='A4'][layout='portrait'] {
   flex-wrap: wrap;
 }
 
+.language {
+  height: auto;
+  width: 7%;
+}
+
+.language2 {
+  height: auto;
+  width: 7%;
+}
+
+.german_link {
+  display: flex;
+  justify-content: flex-end;
+  padding: 3%;
+}
+
+.german_link:visited {
+  color: #3f3c4a;
+}
+
 h1 {
   font-size: 3.2rem;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 10px;
   color: #3f3c4a;
   font-family: 'Fredericka the Great', cursive;
 }
@@ -154,7 +178,6 @@ h1 {
   text-align: center;
   font-size: 25px;
   font-family: 'Fredericka the Great', cursive;
-  //background-color: #d4d2d8;
   padding-top: 1%;
   padding-bottom: 1%;
   border-radius: 3px;
