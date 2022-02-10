@@ -2,252 +2,252 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 body {
-  background: rgb(204, 204, 204);
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
-  color: #3f3c4a;
+	background: rgb(204, 204, 204);
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #3f3c4a;
 }
 
 page {
-  background: rgb(254, 254, 254);
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 0.5cm;
-  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+	background: rgb(254, 254, 254);
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 0.5cm;
+	box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
 }
 
 page[size='A4'] {
-  width: 21cm;
-  height: 29.7cm;
+	width: 21cm;
+	height: 29.7cm;
 }
 
 page[size='A4'][layout='portrait'] {
-  width: 29.7cm;
-  height: 21cm;
+	width: 29.7cm;
+	height: 21cm;
 }
 
 @media print {
-  body,
-  page {
-    margin: 0;
-    box-shadow: 0;
-  }
+	body,
+	page {
+		margin: 0;
+		box-shadow: 0;
+	}
 }
 
 .wrapper {
-  width: 100%;
-  height: 100%;
-  display: grid;
-  grid-template-columns: 0.85fr 0.85fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(10, 1fr);
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 0.85fr 0.85fr 1fr 1fr 1fr;
+	grid-template-rows: repeat(10, 1fr);
 }
 
 /*LEFT WRAPPER*/
 
 .background__left {
-  grid-column: 1 / span 2;
-  grid-row: span 10;
-  background-color: #d4d2d8;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 1.5cm;
-  color: #3f3c4a;
+	grid-column: 1 / span 2;
+	grid-row: span 10;
+	background-color: #d4d2d8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 1.5cm;
+	color: #3f3c4a;
 }
 
 .contactinfo {
-  text-align: center;
+	text-align: center;
 }
 
 .meimg {
-  width: 70%;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 0.5cm;
+	width: 70%;
+	height: auto;
+	border-radius: 50%;
+	margin-bottom: 0.5cm;
 }
 
 .titleside {
-  width: 80%;
-  margin-top: 0.8cm;
-  padding: 0.2cm;
-  background-color: #3f3c4a;
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  font-weight: 400;
-  color: #f7f5f4;
-  border-radius: 3px;
-  font-size: 1.3rem;
+	width: 80%;
+	margin-top: 0.8cm;
+	padding: 0.2cm;
+	background-color: #3f3c4a;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	font-weight: 400;
+	color: #f7f5f4;
+	border-radius: 3px;
+	font-size: 1.3rem;
 }
 
 .skills {
-  display: grid;
-  gap: 0.4cm;
-  grid-template-columns: 2fr 1fr;
-  width: 80%;
-  margin-bottom: 1cm;
-  margin-top: 0.5cm;
+	display: grid;
+	gap: 0.4cm;
+	grid-template-columns: 2fr 1fr;
+	width: 80%;
+	margin-bottom: 1cm;
+	margin-top: 0.5cm;
 }
 
 .skill {
-  margin: 0 auto;
-  width: 100%;
-  justify-self: start;
-  padding-left: 0.2cm;
+	margin: 0 auto;
+	width: 100%;
+	justify-self: start;
+	padding-left: 0.2cm;
 }
 
 .skillbubbles {
-  display: flex;
-  gap: 0.1cm;
-  align-items: center;
-  padding-right: 0.2cm;
+	display: flex;
+	gap: 0.1cm;
+	align-items: center;
+	padding-right: 0.2cm;
 }
 
 .ball {
-  width: 0.4cm;
-  height: 0.4cm;
-  border: solid 2px #3f3c4a;
-  border-radius: 50%;
+	width: 0.4cm;
+	height: 0.4cm;
+	border: solid 2px #3f3c4a;
+	border-radius: 50%;
 }
 
 .filled {
-  background-color: #3f3c4a;
+	background-color: #3f3c4a;
 }
 
 /* HEADER WRAPPER */
 
 .wrapper__header {
-  grid-area: 1 / 3 / span 2 / span 5;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  background-image: url(./Media/forest.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: -5%;
-  flex-wrap: wrap;
+	grid-area: 1 / 3 / span 2 / span 5;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-image: url(./Media/forest.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: -5%;
+	flex-wrap: wrap;
 }
 
 .language {
-  height: auto;
-  width: 7%;
+	height: auto;
+	width: 7%;
 }
 
 .language2 {
-  height: auto;
-  width: 7%;
+	height: auto;
+	width: 7%;
 }
 
 .german_link {
-  display: flex;
-  justify-content: flex-end;
-  padding: 3%;
+	display: flex;
+	justify-content: flex-end;
+	padding: 3%;
 }
 
 .german_link:visited {
-  color: #3f3c4a;
+	color: #3f3c4a;
 }
 
 h1 {
-  font-size: 3.2rem;
-  margin: 0;
-  padding-top: 10px;
-  color: #3f3c4a;
-  font-family: 'Fredericka the Great', cursive;
+	font-size: 3.2rem;
+	margin: 0;
+	padding-top: 10px;
+	color: #3f3c4a;
+	font-family: 'Fredericka the Great', cursive;
 }
 
 .tagline {
-  color: #3f3c4a;
-  margin: 0;
-  padding-bottom: 85px;
+	color: #3f3c4a;
+	margin: 0;
+	padding-bottom: 85px;
 }
 
 /* TEXT WRAPPER */
 
 .wrapper__text {
-  grid-area: 3 / 3 / span 8 / span 3;
-  padding: 0.5cm;
+	grid-area: 3 / 3 / span 8 / span 3;
+	padding: 0.5cm;
 }
 
 /* Job skills */
 
 .textheader {
-  font-weight: 500;
-  width: 100%;
-  text-align: center;
-  font-size: 25px;
-  font-family: 'Fredericka the Great', cursive;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  border-radius: 3px;
+	font-weight: 500;
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Fredericka the Great', cursive;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-radius: 3px;
 }
 
 .jobtitle {
-  margin: 0;
-  padding: 1%;
-  margin-top: 2vh;
-  font-size: 400;
-  font-size: 18px;
+	margin: 0;
+	padding: 1%;
+	margin-top: 2vh;
+	font-size: 400;
+	font-size: 18px;
 }
 
 .job {
-  margin: 0;
-  padding: 1%;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 14px;
+	margin: 0;
+	padding: 1%;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 14px;
 }
 
 ul {
-  margin-left: 4%;
-  padding: 0;
+	margin-left: 4%;
+	padding: 0;
 }
 
 li {
-  font-size: 16px;
-  font-weight: 300;
-  text-align: justify;
-  line-height: 1.5;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: justify;
+	line-height: 1.5;
 }
 
 /* Second page */
 
 .textwrappersecond {
-  grid-area: 1 / 3 / span 10 / span 3;
-  padding: 0.5cm;
-  margin-top: 1.2cm;
+	grid-area: 1 / 3 / span 10 / span 3;
+	padding: 0.5cm;
+	margin-top: 1.2cm;
 }
 
 .socialmedia {
-  margin-top: 0.5cm;
-  display: grid;
-  opacity: 0.8;
-  width: 80%;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin-top: 0.5cm;
+	display: grid;
+	opacity: 0.8;
+	width: 80%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .logo {
-  width: 70%;
-  height: auto;
+	width: 70%;
+	height: auto;
 }
 
 .hobby {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 0.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 0.2rem;
 }
 
 .hobbies {
-  width: 15%;
-  height: auto;
+	width: 15%;
+	height: auto;
 }
 
 p {
-  font-size: 16px;
-  font-weight: 300;
-  text-align: justify;
-  line-height: 1.5;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: justify;
+	line-height: 1.5;
 }
